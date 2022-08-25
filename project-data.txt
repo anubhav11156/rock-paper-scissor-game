@@ -1,0 +1,35 @@
+-> So, This project is all about building the traditonal game of "Rock-Paper-Scissor"
+-> Build Basic version of it...after your blockchain project is finished, build the advanced version of it using React and other frameworks.
+
+--> So, My standards :-
+    1. Make it look fucking professional. -_-
+    2. No bugs or lag
+    3. Build it from scratch.
+
+=> What to do (steps) : -
+    -> Color Combination :-
+        1. Black and Yellow preferably...well see how it goes
+
+          Pink Type : rgba(254,41,95,255)
+          Yellor Type : rgba(255,213,0,255)
+          Cyan Type : rgba(22,187,217,255)
+          Body Background : rgb(255, 201, 0)
+          Black Type : rgba(0, 0, 0, 0.89)
+
+    -> Design the layout and stick to it
+        1. Circle or square ?
+        2. Centered on the web page....yep
+    -> Use all advanced concept of javascript and make code looks easy.
+        1. Use logics and make it simple, avoid unneccessary compexity.
+        2. Do proper commenting
+
+=> I Beleive it will take close to [5 hr] to build it.
+    -> Try speeding up the process.
+    -> Don't be nervous, you can do it. :) you are pro in blockchain....
+       .....man you got your own records...you have your data..trust those
+       data....relax. All is good. :)
+
+
+
+    NOW GO HOMIE...MAKE IT A REALITY !!! CHEERS :)
+        --> DONE :)

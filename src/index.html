@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="">
+      <div id="main-container">
+        <div id="div-1">
+          <div class="upper-text">
+            <p>You</p>
+          </div>
+          <div id="rps-div" style="flex:1; display:flex;">
+            <div id="rock-div">
+              <button class="rps-buttons" id="rock-id" onclick="fooRock()" value="rock">
+                  <img class="rps-image" src="Resources/main-rock.png" alt="rock-icon">
+              </button>
+            </div>
+            <div id="paper-div">
+              <button class="rps-buttons" id="paper-id" onclick="fooPaper()" value="paper">
+                <img class="rps-image" src="Resources/main-paper.png" alt="paper-icon">
+              </button>
+            </div>
+            <div id="scissor-div">
+              <button class="rps-buttons" id="scissor-id" onclick="fooScissor()" value="scissor">
+                <img class="rps-image" src="Resources/main-scissor.png" alt="scissor-icon">
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="div-2">
+          <p>v/s</p>
+        </div>
+        <div id="div-3">
+          <div class="upper-text" style="padding-top: 10px;">
+            <p>Computer</p>
+          </div>
+          <div id="computer-div" style="flex: 1; display: flex; justify-content:center;">
+              <div id="computer-circle">
+                <div id="icon-div">
+                  <img id="computer-icon" src="Resources/main-all.png" alt="computer-turn-icon">
+                </div>
+              </div>
+          </div>
+        </div>
+        <div id="div-4">
+            <p id="text"></p>
+        </div>
+        <div id="div-5">
+            <button id="reset-button" onclick="reset()">Reset</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
