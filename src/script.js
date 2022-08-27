@@ -21,13 +21,13 @@ const computerChoiceAraray = ['rock','paper','scissor'];
 let computerChoice = (array) => {
   let choice = Math.floor(Math.random()*array.length);
   if(choice==0){
-    computerIcon.src = 'Resources/main-rock.png';
+    computerIcon.src = '../public/images/main-rock.png';
   }
   else if (choice==1) {
-    computerIcon.src = 'Resources/main-paper.png';
+    computerIcon.src = '../public/images/main-paper.png';
   }
   else {
-    computerIcon.src = 'Resources/main-scissor.png';
+    computerIcon.src = '../public/images/main-scissor.png';
   }
 
   return array[choice];
@@ -118,7 +118,7 @@ const youLose = () => {
 }
 
 let reset = () => {
-  computerIcon.src = 'Resources/main-all.png';
+  computerIcon.src = '../public/images/main-all.png';
   count = 0;
   rock.style.border = 'none';
   paper.style.border = 'none';
